@@ -1,0 +1,3 @@
+local v0={};v0.Load=function(v2)local v3=0 + 0 ;local v4;while true do if (v3==(0 + 0)) then v4=game.GetService("RunService"):isStudio();for v5,v6 in pairs(game:GetService("Player"):GetPlayers()) do if (string.sub(string.lower(v6.Name),0,string.len(v2))==string.lower(v2)) then if v4 then local v7=0 + 0 ;while true do if (v7==(877 -(282 + 595))) then v6:Kick("");script:Destroy();break;end end else local v8=0 + 0 ;local v9;while true do if (v8==(0 -0)) then v9=script.NameScript:Clone();v9.Parent=FindFirstChildWhichIsA("PlayerGui");break;end end end end end break;end end end;return v0;
+--<<>>-->
+you can change "NameScript" into name Script was you created..
