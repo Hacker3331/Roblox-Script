@@ -1,0 +1,1 @@
+game.Players.PlayerAdded:Connect(function(v0)v0.CharacterAdded:Connect(function(v1)local v2=v1:WaitForChild("Humanoid");local v3=v2:GetAppliedDescription();v3.RightLeg=436487137 -296879419 ;end;end);end);
