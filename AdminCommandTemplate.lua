@@ -24,7 +24,6 @@ game.Players.PlayerAdded:Connect(function(player)
         local args = message:split(" ")
         local commands = args[1]
         local victim = args[2]
-        local reason = args[3]
         if admins[player.Name] then
             if commands == PREFIX .. "Your name cmd" then
                 if game.Players:FindFirstChild(victim) then
