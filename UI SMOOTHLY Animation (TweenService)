@@ -1,0 +1,1 @@
+wait(5 -3 );local v0=workspace.Part;local v1=game.GetService("TweenService");local v2=tweenInfo.new(5 -3 ,Enum.EasingStyle.Bounce,Enum.EasingDirection.Out);local v3=v1:Create(part,v2,{Size=Vector3.new(13.926 -6 ,12.216999999999999 -7 ,625.773 -(555 + 64) )});v3:Play();
