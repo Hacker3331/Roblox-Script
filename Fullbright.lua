@@ -1,0 +1,1 @@
+local v0=game:GetService("Lighting");function dofullbright()v0.Ambient=Color3.new(3 -2 ,1423 -(378 + 1044) ,2 -1 );v0.ColorShift_Bottom=Color3.new(1,2 -1 ,1);v0.ColorShift_Top=Color3.new(569 -(367 + 201) ,928 -(214 + 713) ,1 + 0 );end dofullbright();v0.LightingChanged:Connect(dofullbright);
