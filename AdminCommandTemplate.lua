@@ -29,7 +29,7 @@ game.Players.PlayerAdded:Connect(function(player)
                 if game.Players:FindFirstChild(victim) then
                     "Script"
             end
-            elseif commands == PREFIX .. "Your name script" then
+            elseif commands == PREFIX .. "Your name cmd" then
                 if game.Players:FindFirstChild(victim) then
                     "Script"
             end
